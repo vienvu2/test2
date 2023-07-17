@@ -13,9 +13,9 @@ storyblokInit({
   use: [apiPlugin],
   apiOptions: {
     region: "us",
-  },
-  cache: {
-    type: "none",
+    cache: {
+      type: "none",
+    },
   },
 });
 
