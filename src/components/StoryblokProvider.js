@@ -6,13 +6,15 @@ import Grid from "./Grid";
 import Teaser from "./Teaser";
 import Page from "./Page";
 import Product from "./Product";
+import Comment from "./Comment";
 
 const components = {
   feature: Feature,
   grid: Grid,
   teaser: Teaser,
   page: Page,
-  product: Product
+  product: Product,
+  comment: Comment,
 };
 
 /** 2. Initialize it as usual */
