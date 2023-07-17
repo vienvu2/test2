@@ -7,7 +7,7 @@ export default async function Home() {
   console.log(data.story.content)
   return (
     <div>
-      <StoryblokStory story={data.story} />
+    {JSON.stringify(data.story.content)}
       <StoryblokStory story={data.story} />
     </div>
   );
