@@ -7,8 +7,8 @@ export default async function Home() {
 
   return (
     <div>
+      <h1>Story: {data.story.name}</h1>
       <StoryblokStory story={data.story} />
-      {/* <h1>Story: {data.story.name}</h1> */}
     </div>
   );
 }
