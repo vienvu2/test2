@@ -5,12 +5,14 @@ import Feature from "./Feature";
 import Grid from "./Grid";
 import Teaser from "./Teaser";
 import Page from "./Page";
+import Product from "./Product";
 
 const components = {
   feature: Feature,
   grid: Grid,
   teaser: Teaser,
   page: Page,
+  product: Product
 };
 
 /** 2. Initialize it as usual */
