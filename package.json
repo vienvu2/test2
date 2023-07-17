@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "proxy": "mkcert -install && mkcert localhost && local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem"
   },
   "dependencies": {
+    "@storyblok/react": "^2.1.9",
     "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0"

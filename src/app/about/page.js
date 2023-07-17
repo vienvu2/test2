@@ -17,5 +17,5 @@ export async function fetchData() {
   let sbParams = {};
 
   const storyblokApi = getStoryblokApi();
-  return storyblokApi?.get(`cdn/stories/home`, sbParams);
+  return storyblokApi?.get(`cdn/stories/about`, sbParams);
 }
