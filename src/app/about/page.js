@@ -4,11 +4,10 @@ import { getStoryblokApi } from "@storyblok/react/rsc";
 export default async function Home() {
   const { data } = await fetchData();
 
-
+  console.log(data.story.content)
   return (
     <div>
       <StoryblokStory story={data.story} />
-      {/* <h1>Story: {data.story.name}</h1> */}
     </div>
   );
 }
