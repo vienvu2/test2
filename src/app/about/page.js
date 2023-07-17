@@ -18,7 +18,7 @@ export default async function About() {
 
 export async function fetchData() {
   let sbParams = {
-    cv: '1689577947'
+    cv: '1689581943'
   };
   const storyblokApi = getStoryblokApi();
   return storyblokApi?.get(`cdn/stories/about`, sbParams);
