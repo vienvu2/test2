@@ -14,6 +14,7 @@ storyblokInit({
   apiOptions: {
     region: "us",
   },
+  cache: "none"
 });
 
 const inter = Inter({ subsets: ["latin"] });
