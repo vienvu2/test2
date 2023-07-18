@@ -3,10 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 
 import { storyblokInit, apiPlugin } from "@storyblok/react/rsc";
-import Feature from "@/components/Feature";
-import Grid from "@/components/Grid";
-import Teaser from "@/components/Teaser";
-import Page from "@/components/Page";
+
 
 storyblokInit({
   accessToken: "A1CA6hR0NYBGGnU1tYmB8wtt",
