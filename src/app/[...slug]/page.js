@@ -7,7 +7,8 @@ export default async function Home(context) {
 }
 
 export async function fetchData({ params }) {
-  const slug = params.slug || 'home';
+  const slugs = params.slug || 'home';
+  const slug = slugs.join('/')
   let sbParams = {
     cv: '2132'
   };
